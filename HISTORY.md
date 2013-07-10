@@ -1,6 +1,15 @@
 Sanitize History
 ================================================================================
 
+Version 3.0.0 (git)
+-------------------
+
+* Prepackaged configs are now deep-frozen by default to prevent accidental
+  (or malicious) modification. If you want to customize one of these configs,
+  create an unfrozen copy first by passing it to the `Sanitize::Config.copy()`
+  method. [Paul Annesley]
+
+
 Version 2.0.4 (2013-06-12)
 --------------------------
 
