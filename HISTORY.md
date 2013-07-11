@@ -10,6 +10,23 @@ Version 3.0.0 (git)
   method. [Paul Annesley]
 
 
+Version 2.0.6 (2013-07-10)
+--------------------------
+
+* Fixed: Version 2.0.5 inadvertently included some work-in-progress changes that
+  shouldn't have made their way into the master branch. This is what happens
+  when I release before coffee instead of after.
+
+
+Version 2.0.5 (2013-07-10)
+--------------------------
+
+* Loosened the Nokogiri dependency back to >= 1.4.4 to allow Sanitize to coexist
+  in newer Rubies with other libraries that restrict Nokogiri to 1.5.x for 1.8.7
+  compatibility. Sanitize still no longer supports 1.8.7, but this should make
+  life easier for people who need those other libs.
+
+
 Version 2.0.4 (2013-06-12)
 --------------------------
 
